@@ -1,0 +1,274 @@
+/* CSS Document */
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,
+pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4{font-size:100%;}
+q:before,q:after{content:'';}
+
+img { border-style: none; }
+
+body,div,p,h1,h2,h3,h4,h5,h6
+	{
+	font-family: Arial, Helvetica, Univers, 'Zurich BT', sans-serif;
+	color:#191919;
+	font-weight:normal;
+	}
+	
+	
+h1
+	{
+	font-size:24px;
+	line-height:36px;
+	margin-bottom:36px;
+	}
+	
+h2
+	{
+	font-size:18px;
+	line-height:24px;
+	margin-bottom:24px;
+	}
+	
+h3
+	{
+	color:#191919;
+	text-decoration:none;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	font-size:12px;
+	line-height:12px;
+	margin-bottom:24px;
+	}
+	
+h4,p,td
+	{
+	font-size:14px;
+	line-height:24px;
+	margin-bottom:24px;
+	}
+	
+#banner,#links
+	{
+	font-size:12px;
+	line-height:12px;
+	margin-bottom:0;
+	}
+	
+h5, .post-footer
+	{
+	font-size:10px;
+	line-height:18px;
+	margin-bottom:12px;
+	}
+	
+.nav_on {
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; font-size:14px; font-weight:bold; } 
+	
+A 			{
+	color: #191919; text-decoration: underline; } 
+	A:link		{
+	color: #191919; text-decoration: underline; } 
+	A:visited	{
+	color: #191919; text-decoration: underline; } 
+	A:active	{
+	color: #191919; text-decoration: underline; } 
+	A:hover		{
+	color: #191919; text-decoration: underline; }
+	
+A.title, A:link.title, A:visited.title, A:active.title, A:hover.title		{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; 
+} 
+	
+A.nav 			{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; } 
+	A:link.nav		{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; }  
+	A:visited.nav	{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; }  
+	A:active.nav	{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; }  
+	A:hover.nav		{
+	color: #191919; text-decoration: none; text-transform:uppercase; letter-spacing:.2em; } 
+	
+A.link_footer, A:link.link_footer, A:visited.link_footer, A:active.link_footer, A:hover.link_footer 
+	{color:#CfC7C7 }
+	
+A.img_link { border:none; }
+A:link.img_link { border:none; }
+A:visited.img_link { border:none; }
+A:active.img_link { border:none; }
+A:hover.img_link { border:none; }
+	
+	
+#banner
+	{
+	text-align:left;
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:24px;
+	float:left;
+	}
+	
+#links
+	{
+	text-align:right;
+	}
+	
+#header {
+padding-bottom:20px;
+margin-bottom:20px;
+border-bottom:0px solid #CfC7C7;
+}
+	
+	
+
+#container
+	{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:20px;
+	padding:0;
+	width: 974px;
+	}
+	
+		
+#footer
+	{
+	color:#CfC7C7;
+	clear:both;
+	position: absolute;
+	bottom: 5px;
+	padding:20px 0 0 0;
+	border-top: 0px solid #CfC7C7;
+	text-align:center;
+	font-size:9px;
+	line-height:18px;
+	}
+	
+.leftcol {
+	padding-right:48px;
+	}
+	
+.port_thumb {
+	margin-top:0;
+	margin-right:7px;
+	margin-left:0;
+	margin-bottom:7px;
+	}
+	
+.port_thumb_last {
+	margin-top:0;
+	margin-right:0;
+	margin-left:0;
+	margin-bottom:7px;
+	}
+
+.myCaption
+	{
+	font-family: Arial, Helvetica, Univers, 'Zurich BT', sans-seri;
+	color:#191919;
+	font-weight:normal;
+	font-size:10px;
+	line-height:16px;
+	margin-bottom:16px;
+	}
+.dropbtn {
+    /*background-color: #4CAF50;*/
+    /*color: white;*/
+    /*padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;*/
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a {float: left;}
+.dropdown-content a:hover {background-color: #f1f1f1; width: 100%;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.images img {
+	margin: 20px;
+	width: 250px;
+	cursor: pointer;
+}
+.images .large {
+	width: 100%;
+	height: 100%;
+}
+.caption p {
+	margin: 10px;
+}
+form input[type="text"], form input[type="email"] {
+	height: 20px;
+	width: 150px;
+	font-fami
+
+}
+form p, form input {
+	margin: 0px;
+}
+form div {
+	margin-bottom: 20px;
+}
+form input[type='submit'] {
+	border-radius: 0px;
+}
+form textarea {
+	border: 1px solid #cccccc;
+}
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-style: normal;
+  color: #999999;
+  font-size: 12px;
+
+}
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:visible; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:100%;margin-bottom:-20px;padding:0;position:absolute;bottom:0;text-align:right;font-size: 10px; color: #666;}
